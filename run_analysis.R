@@ -44,14 +44,18 @@ colnames(Full_Data) <- varnames
 
 
 #Mean and SD data.frame
-msd <- rbind(map_dbl(Full_Data, mean),
+Mean_and_SD <- rbind(map_dbl(Full_Data, mean),
              map_dbl(Full_Data, sd))
-rownames(msd) <- c("mean", "sd")
-View(msd)
+rownames(Mean_and_SD) <- c("mean", "sd")
+View(Mean_and_SD)
 head(Full_Data)
 
 #Removes extra objects from the global environment. 
 rm(URL, varnames, TestFiles, TestList, TrainFiles, TrainList)
+
+
+
+
 
 
 
