@@ -49,6 +49,8 @@ msd <- rbind(map_dbl(Full_Data, mean),
 rownames(msd) <- c("mean", "sd")
 View(msd)
 head(Full_Data)
+
+#Removes extra objects from the global environment. 
 rm(URL, varnames, TestFiles, TestList, TrainFiles, TrainList)
 
 
