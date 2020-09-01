@@ -47,9 +47,9 @@ colnames(Full_Data) <- varnames
 msd <- rbind(map_dbl(Full_Data, mean),
              map_dbl(Full_Data, sd))
 rownames(msd) <- c("mean", "sd")
-print(msd)
+View(msd)
 head(Full_Data)
-
+rm(URL, varnames, TestFiles, TestList, TrainFiles, TrainList)
 
 
 
