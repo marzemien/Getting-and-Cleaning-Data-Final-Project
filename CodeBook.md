@@ -86,7 +86,7 @@ Mean_and_SD <- rbind(map_dbl(Full_Data, mean),
 rownames(Mean_and_SD) <- c("mean", "sd")
 View(Mean_and_SD)
 head(Full_Data)
-write.table(Full_Data,paste0(getwd(), "/UCI HAR Dataset/Full_Data.txt", col.names = FALSE))
+write.table(Full_Data,paste0(getwd(), "/UCI HAR Dataset/Full_Data.txt", row.names = FALSE))
 
 #Removes extra objects from the global environment. 
 rm(URL, varnames, TestFiles, TestList, TrainFiles, TrainList)
