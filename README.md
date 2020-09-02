@@ -14,7 +14,7 @@ Once downloaded, the zip file from this study contains a training dataset and a 
 Notes about the variables
 The variable names were changed to be a more descriptive. With the exception of the parsing, they were kept in their original forms. 
 
-
++ "x_axis acceleration"
 +	"y-axis acceleration"
 +	"z-axis acceleration"
 +	"x-axis angular velocity"
@@ -23,4 +23,4 @@ The variable names were changed to be a more descriptive. With the exception of 
 +	"total x-axis acceleration"
 +	"total y-axis acceleration"
 +	"total z-axis acceleration"
-+"x-axis acceleration
+
